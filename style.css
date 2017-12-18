@@ -10,8 +10,7 @@
 
 .container{
   width: 100%;
-  display: inline-flex;
-  flex-direction: row;
+  display: flex;
   justify-content: space-between;
   align-items: flex-end;
   border: 1px solid black;
@@ -130,3 +129,9 @@ nav span li{
   margin: auto 0;
 }
 
+    © 2017 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
