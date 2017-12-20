@@ -1,137 +1,37 @@
-.header{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  border-bottom: 1px solid black; grid
-}
-
 .container{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  border: 1px solid black;
-  flex-wrap: wrap;
-  }
-
-/*Column Widths*/
-.column.large{
-  width:630px;
-  border:1px solid black;
-  }
-
-.column.medium{
-  width:300px;
-  border: 1px solid black;
-  }
-
-.column.small{
-  width: 240px;
-  border: 1px solid black;
-  }
-
-/*Styling of the Large, left column*/
-
-
-
-.column.large .box1{
-  margin-top: 15px;
-  border-top: 3px solid black;    
-  border-bottom: 1px solid black;
-  }
-
-.column.large .box3{
-    border-bottom: 2px solid black;
-    border-top: 3px solid black;
+    display:flex;
+    flex-wrap: wrap;
+    width: 1100px;
 }
 
-.column.large .box4{
-    border-top: 4px solid black;
-    border-bottom: 5px solid black;
-   
+.story-1{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color:aquamarine;
+    
 }
 
-.column.large .box5{
-    border-bottom: 2px solid black;
-    border-top: 3px solid black;
+.story-2{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color:black;
+    
 }
 
-.column.large .box6{
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-  
+.story-3{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color:orange;
+    
 }
 
-.column.large .box7{
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-    text-align: center;
-    text-transform: capitalize;
-  
+.story-4{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color:coral;
+    
 }
-
-/*Styling of the middle column*/
-
-.column.medium{
-    border: 3px solid black;
-}
-
-.column.medium .box1{
-    border-bottom: 5px solid black;
-}
-
-.column.medium .box2{
-    border-bottom: 1px solid black;
-       
-}
-
-/*Styling of the third column*/
-
-.column.small .box1{
-    background-image:url(./Resources/Images/cookie.png);
-    background-position: center;
-    min-height: 200px;
-        }
-
-.column.small .box2{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-}
-
-.column.small .box3{
-    height: 200px;
-}
-
-nav span li{
-  display: inline-block;
-  text-decoration: underline;
-  padding: 10px;
-}
-
-#logo{
-  display: inline-flex;
-  padding-right: 930px;
-  border: 1px solid black;
-  color: MediumAquamarine;
-  padding-left: 20px;
-}
-
-#logo img{
-  margin-right: 10px;
-}
-
-#logo p{
-  margin: auto 0;
-}
-
-    © 2017 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
